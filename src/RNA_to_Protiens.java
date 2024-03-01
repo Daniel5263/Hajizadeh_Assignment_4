@@ -2,8 +2,8 @@ import java.util.*;
 
 public class RNA_to_Protiens {
     public static void main(String[] args) {
-        System.out.println(rnaToAminoAcids("AGCUGGGAAACGUAGGCCUA"));  // Expected output: SWET.A.
-        System.out.println(rnaToAminoAcids("UAAAGAGAAGCCAGC"));  // Expected output: .GREAT
+        System.out.println(rnaToAminoAcids("AGCUGGGAAACGUAGGCCUA"));
+        System.out.println(rnaToAminoAcids("UAAAGAGAAGCCAGC"));
     }
 
     public static String rnaToAminoAcids(String rnaSequence) {

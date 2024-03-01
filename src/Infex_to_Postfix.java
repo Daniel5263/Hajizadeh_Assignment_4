@@ -31,7 +31,7 @@ public class Infex_to_Postfix {
                     result.add(stack.pop());
 
                 if (!stack.isEmpty() && stack.peek() != '(')
-                    return null; // invalid expression
+                    return null;
                 else
                     stack.pop();
             } else {
